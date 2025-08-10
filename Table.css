@@ -1,0 +1,32 @@
+.container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+table, td, th {  
+    border: 1px solid black;
+    text-align: center;
+  }
+  
+  table {
+       width:100%;
+  }
+  
+  th, td {
+    padding: 5px;
+  }
+  .table-header{
+    margin-top:20px;
+  }
+  input[type=text]{
+    padding:5px;
+  }
+  input[type=email]{
+    padding:5px;
+  }
+  .addbtn{
+    padding:5px 10px 5px 15px;
+    margin-left:5px; 
+  }
